@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Cadastro_01 from "@/components/ui/cadastro_01";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -31,7 +32,11 @@ export default function Home() {
         </div>
 
         <div className="flex gap-2 mt-10">
-          <Button variant="secondary"> Entrar </Button>
+          <Button asChild variant="secondary" className="border-2 border-green-600">
+            <Link href="/dashboard">
+              <span className="">Entrar</span>
+            </Link>
+          </Button>
           {/* <button className="border-2 border-green-600 px-10 rounded-lg hover:text-white hover:bg-green-600 duration-300"> */}
           <Cadastro_01 />
           {/* </button> */}
