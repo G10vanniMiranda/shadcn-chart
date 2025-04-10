@@ -18,12 +18,12 @@ import {
     ChartTooltipContent,
 } from "@/components/ui/chart"
 const chartData = [
-    { month: "January", desktop: 186, mobile: 80 },
-    { month: "February", desktop: 305, mobile: 200 },
-    { month: "March", desktop: 237, mobile: 120 },
-    { month: "April", desktop: 73, mobile: 190 },
-    { month: "May", desktop: 209, mobile: 130 },
-    { month: "June", desktop: 214, mobile: 140 },
+    { month: "Janeiro", desktop: 186, mobile: 80 },
+    { month: "Feveiro", desktop: 305, mobile: 200 },
+    { month: "Março", desktop: 237, mobile: 120 },
+    { month: "Abril", desktop: 73, mobile: 190 },
+    { month: "Maio", desktop: 209, mobile: 130 },
+    { month: "Junho", desktop: 214, mobile: 140 },
 ]
 
 const chartConfig = {
@@ -41,9 +41,9 @@ export function Chart_03() {
     return (
         <Card className="md:w-96 w-full">
             <CardHeader>
-                <CardTitle>Area Chart - Stacked</CardTitle>
+                <CardTitle>Declaração de IRPF 2025</CardTitle>
                 <CardDescription>
-                    Showing total visitors for the last 6 months
+                    Total de declarações recebidas nos últimos 6 meses
                 </CardDescription>
             </CardHeader>
             <CardContent>
@@ -91,10 +91,10 @@ export function Chart_03() {
                 <div className="flex w-full items-start gap-2 text-sm">
                     <div className="grid gap-2">
                         <div className="flex items-center gap-2 font-medium leading-none">
-                            Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+                            Crescimento de 5,2% nas declarações este mês <TrendingUp className="h-4 w-4" />
                         </div>
                         <div className="flex items-center gap-2 leading-none text-muted-foreground">
-                            January - June 2024
+                            Janeiro - Junho de 2025
                         </div>
                     </div>
                 </div>

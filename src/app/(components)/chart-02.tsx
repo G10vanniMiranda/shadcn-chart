@@ -60,8 +60,8 @@ export function Chart_02() {
     return (
         <Card className="flex flex-col md:w-96 w-full">
             <CardHeader className="items-center pb-0">
-                <CardTitle>Pie Chart - Donut with Text</CardTitle>
-                <CardDescription>January - June 2024</CardDescription>
+                <CardTitle>Declaração de IRPF 2025</CardTitle>
+                <CardDescription>Base de dados de janeiro a junho de 2025</CardDescription>
             </CardHeader>
             <CardContent className="flex-1 pb-0">
                 <ChartContainer
@@ -102,7 +102,7 @@ export function Chart_02() {
                                                     y={(viewBox.cy || 0) + 24}
                                                     className="fill-muted-foreground"
                                                 >
-                                                    Visitors
+                                                    Declarações
                                                 </tspan>
                                             </text>
                                         )
@@ -115,10 +115,10 @@ export function Chart_02() {
             </CardContent>
             <CardFooter className="flex-col gap-2 text-sm">
                 <div className="flex items-center gap-2 font-medium leading-none">
-                    Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
+                    Crescimento de 5,2% nas declarações este mês <TrendingUp className="h-4 w-4" />
                 </div>
                 <div className="leading-none text-muted-foreground">
-                    Showing total visitors for the last 6 months
+                    Total de declarações recebidas nos últimos 6 meses
                 </div>
             </CardFooter>
         </Card>
