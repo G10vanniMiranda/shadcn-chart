@@ -17,24 +17,24 @@ export default function Home() {
             id="nome"
             type="text"
             placeholder="Nome"
-            className="border-2 border-gray-300 rounded-md p-1 bg-slate-800 text-white mb-2"
+            className="p-1 bg-transparent text-black mb-2 outline-none"
           />
         </div>
 
-        <div className="flex flex-col gap-2 border-b-2 border-slate-600">
+        <div className="flex flex-col gap-2 border-b-2 border-slate-600 mt-10">
           <label htmlFor="nome">E-mail</label>
           <input
             id="nome"
             type="text"
             placeholder="Nome"
-            className="border-2 border-gray-300 rounded-md p-1 bg-slate-800 text-white mb-2"
+            className="p-1 bg-transparent text-black mb-2 outline-none"
           />
         </div>
 
-        <div className="flex gap-2 mt-10">
-          <Button asChild variant="secondary" className="border-2 border-green-600">
+        <div className="flex justify-center gap-2 mt-10">
+          <Button asChild variant="secondary" className="border-2 border-green-600 hover:bg-green-500 hover:text-white">
             <Link href="/dashboard">
-              <span className="">Entrar</span>
+              <span className="w-36 text-center">Entrar</span>
             </Link>
           </Button>
           {/* <button className="border-2 border-green-600 px-10 rounded-lg hover:text-white hover:bg-green-600 duration-300"> */}
